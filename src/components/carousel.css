@@ -1,0 +1,14 @@
+.carousel-container {
+    
+    margin: auto;
+  }
+  
+  .carousel-item {
+    padding: 10px;
+  }
+  
+  .carousel-image-container img {
+    width: 100%;
+    height: auto;
+  }
+  

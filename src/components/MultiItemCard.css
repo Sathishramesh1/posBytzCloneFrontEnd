@@ -1,0 +1,15 @@
+.testimonial-item {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .customer-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .stars {
+    margin-top: 10px;
+    color: #FFD700; 
+  }
+  

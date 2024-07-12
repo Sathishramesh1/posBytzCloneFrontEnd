@@ -1,0 +1,143 @@
+
+
+/* .card_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+.card{
+    
+    padding-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 1rem;
+      
+    
+}
+
+
+@media (width < 768px) {  
+    .card{
+    width: 80dvw !important;
+    height: fit-content !important;
+    margin: 0!important;
+    }
+
+    .erp_container{
+        display: flex;
+        
+        padding-bottom: 2rem;
+
+    
+    }
+
+    .erp_page{
+        margin-top:5rem;
+    }
+
+    
+ 
+   }
+
+
+
+
+
+.card_heading{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+    img{
+        height: 60px;
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    p{
+        font-weight: 600;
+    }
+}
+
+.star{
+    color: gold;
+    margin: auto;
+}
+
+.erp_page{
+    background-color: #f0f0f2;
+    width: 100%;
+    height: 90dvh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.erp_container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.erp_left{
+   
+    flex: 0.5;
+    margin-left: 10px;
+    h1{
+    font-size: 50px;
+    font-family:sans-serif;
+    font-weight: 600;
+    }
+
+    .sign_up{
+        background-color: coral;
+        width: fit-content;
+        padding: 10px 20px;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        border-radius: 25px;
+        color: white;
+        font-weight: 700;
+    }
+}
+
+.erp_right{
+    
+    flex: 0.4;
+    
+    img{
+        max-width: 100%;
+    }
+}
+
+
+@media (width<= 768px){
+
+
+    .erp_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .erp_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 25px;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+}

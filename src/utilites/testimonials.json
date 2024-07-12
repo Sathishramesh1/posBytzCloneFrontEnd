@@ -1,0 +1,31 @@
+[
+    {
+        "logo": "https://posbytz.com/wp-content/uploads/2023/09/Sams-Pizza-85x90.png",
+        "customer_name": "Sam Pasta Pizza, Qatar",
+        "feedback": "I have been using Posbytz for more than two years, would definitely recommend to all my fellow restaurant owners given the fact it gives complete control over your business. Best would be the branded apps and online ordering platform integrated with POS and inventory."
+    },
+    {
+        "logo": "https://posbytz.com/wp-content/uploads/2021/09/posbytz_review_farmarika.webp",
+        "customer_name": "MazaArabia,KSA",
+        "feedback": "We have recently migrated our software to PosBytz so far have been always improvising the features based on request and strongly recommend for F&amp;B groups managing complex restaurant operations with multiple brands from purchases, inventory, transfers, Accounting to P&amp;L reports. Integrated QR code ordering system with POS works seamlessly and gives a great customer experience."},
+
+    {
+        "logo": "https://posbytz.com/wp-content/uploads/2021/09/posbytz_review_farmarika.webp",
+        "customer_name": "Farmarika",
+        "type":"Grocery Business",
+        "feedback": "This ERP platform is simple and excellent . It is has the omnichannel model to sell the products. I have been using this product for more than 1 year. It is very good to manage the catalogue, items, pricing, taxing , customers, employees etc."
+    },
+    
+    {
+        "logo": "https://posbytz.com/wp-content/uploads/2021/09/tehran_taste_persia-85x90.png",
+        "customer_name": "Tehran-the Taste Of Persia",
+        "type":"Restaurant Business",
+        "feedback": "I have been using Posbytz for more than two years, would definitely recommend to all my fellow restaurant owners given the fact it gives complete control over your business. Best would be the branded apps and online ordering platform integrated with POS and inventory."
+    },
+    {
+        "logo": "https://posbytz.com/wp-content/uploads/2023/09/Al-karakand-e1695319023203-83x71.png",
+        "customer_name": "Sam Pasta Pizza, Qatar",
+        "feedback": "We have recently migrated our software to PosBytz so far have been always improvising the features based on request and strongly recommend for F&B groups managing complex restaurant operations with multiple brands from purchases, inventory, transfers, Accounting to P&L reports. Integrated QR code ordering system with POS works seamlessly and gives a great customer experience."
+    }
+    
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "url": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-2.png",
+        "name": "POS",
+         "color":"#ff8100",
+         "border":"#b0ff37",
+        "title": "Simplifying billing, Empowering Businesses",
+        "content": "Enhance your business efficiency with our cutting-edge Point of Sale solutions works on Windows POS, Android POS and IPAD POS. Our Cloud POS system empowers your business for growth and success."
+    },
+    {
+        "url": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-1.png",
+        "name": "Ecommerce & Online ordering",
+        "color":"#a90030",
+        "border":"#a90030",
+        "title": "Simplifying billing, Empowering Businesses",
+        "content": "Enhance your business efficiency with our cutting-edge Point of Sale solutions works on Windows POS, Android POS and IPAD POS. Our Cloud POS system empowers your business for growth and success."
+    },
+    {
+        "url": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-18.png",
+        "name": "Inventory Management ",
+        "color":"#24007e",
+        "border":"#24007e",
+        "title": "Efficient Inventory Control, Amplified Success",
+        "content": "Enhance your business efficiency with our cutting-edge Point of Sale solutions works on Windows POS, Android POS and IPAD POS. Our Cloud POS system empowers your business for growth and success."
+    },
+    {
+        "url": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-19.png",
+        "name": "Accounting & Finance",
+        "color":"#38ad8d",
+        "border":"#38ad8d",
+        
+        "title": "Simplified Accounting and Finances",
+        "content": "Enhance your business efficiency with our cutting-edge Point of Sale solutions works on Windows POS, Android POS and IPAD POS. Our Cloud POS system empowers your business for growth and success."
+    },
+    {
+        "url": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-11.png",
+        "name": "CRM",
+        "color":"#6c0758",
+        "border":"#6c0758",
+        
+        "title": "Nurturing Relationships, Maximizing Growth",
+        "content": "Enhance your business efficiency with our cutting-edge Point of Sale solutions works on Windows POS, Android POS and IPAD POS. Our Cloud POS system empowers your business for growth and success."
+    },
+    {
+        "url": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-2.png",
+        "name": "HR & Payroll",
+        "color":"#582010",
+        "border":"#24007e",        
+        "title": "Streamlined HR & Payroll, Empowering People",
+        "content": "Enhance your business efficiency with our cutting-edge Point of Sale solutions works on Windows POS, Android POS and IPAD POS. Our Cloud POS system empowers your business for growth and success."
+    }
+   
+]
