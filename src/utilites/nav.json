@@ -1,0 +1,128 @@
+[
+    {
+        "main_item": "Explore",
+        "sub_item": [
+            {
+                "inner_item": "Restaurant",
+                "sub_inner_item": [
+                    "Restaurant POS Software",
+                    "Cloud Kitchen Software",
+                    "Cafe Billing Software",
+                    "Food truck POS",
+                    "Bar & Restaurant Software"
+                ]
+            },
+            {
+                "inner_item": "Retail",
+                "sub_inner_item": [
+                    "Retail Billing Software",
+                    "Supermarket Billing Software",
+                    "Grocery Store Software",
+                    "Boutique Software",
+                    "Butchery Software",
+                    "Vegetable shop Billing Software",
+                    "Liquor store POS",
+                    "Fish Store Software"
+                ]
+            },
+            {
+                "inner_item": "POS",
+                "sub_inner_item": [
+                    "Cloud POS",
+                    "iPAD POS",
+                    "Windows POS",
+                    "Android POS",
+                    "POS System for Small Business",
+                    "Best POS Software"
+                ]
+            },
+            {
+                "inner_item": "Online Ordering",
+                "sub_inner_item": [
+                    "Restaurant Online ordering system",
+                    "Best Free Online Store",
+                    "Online Food Delivering System",
+                    "Online Food Ordering System"
+                ]
+            },
+            {
+                "inner_item": "E-Commerce",
+                "sub_inner_item": [
+                    "Ecommerce Platform",
+                    "Online Sales Platform"
+                ]
+            },
+            {
+                "inner_item": "Integration",
+                "sub_inner_item": [
+                    "Woocommerce POS Integration",
+                    "WhatsApp Ecommerce Integration",
+                    "Shopify Alternative",
+                    "Zoho POS Integration",
+                    "Shopify POS Integration"
+                ]
+            },
+            {
+                "inner_item": "E-innovation",
+                "sub_inner_item": [
+                    "ZATCA approved invoicing software",
+                    "Free e-invoicing software in Saudi Arabia"
+                ]
+            },
+            {
+                "inner_item": "Free Delivery App"
+            }
+        ]
+    },
+    {
+        "main_item": "Partners",
+        "sub_item": [
+            {
+                "inner_item": "Partners program"
+            },
+            {
+                "inner_item": "Become a partner"
+            },
+            {
+                "inner_item": "Partner Portal"
+            }
+        ]
+    },
+    {
+        "main_item": "Pricing"
+    },
+    {
+        "main_item": "Blog"
+    },
+    {
+        "main_item": "Company",
+        "sub_item": [
+            {
+                "inner_item": "About Us"
+            },
+            {
+                "inner_item": "Contact Us"
+            }
+        ]
+    },
+    {
+        "main_item": "Support"
+    },
+    {
+        "main_item": "Login"
+    },
+    {
+        "main_item": "Languages",
+        "sub_item": [
+            {
+                "inner_item": "English"
+            },
+            {
+                "inner_item": "العربية"
+            }
+        ]
+    },
+    {
+        "main_item": "Careers"
+    }
+]

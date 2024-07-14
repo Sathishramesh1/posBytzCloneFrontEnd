@@ -5,9 +5,7 @@ import './adversitement.css'
 function Adversitement() {
   return (
     <div
-    className='ad_page'
-    
-    >
+    className='ad_page'>
 
 <div className='ad_quote'>
 Ready to Automate your business operations? 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -11,31 +11,46 @@ import '../App.css'
 function NavBar() {
 
   const [showDropdown, setShowDropdown] = useState(false);
+  const [isMobile,setMobile]=useState(window.innerWidth<=992);
+
+  const handleDropdownClick = (event) => {
+    event.preventDefault();
+    if (isMobile) {
+      setShowDropdown((prev) => !prev);
+    }
+  };
   
   
+
   const handleMouseOver = () => {
+    
+  if(!showDropdown && !isMobile) {
     setShowDropdown(true);
+  }
   };
 
   const handleMouseOut = () => {
-    setTimeout(()=>{
-      setShowDropdown(false);
-
-    },1000);
     
+    setTimeout(() => {
+      setShowDropdown(false);
+    }, 1200); 
+  
   };
 
+  // const handleDropdownClick = () => {
+  //   setShowDropdown((prev) => !prev);
+  // };
 
-  
+
 
   return (
     <header className='header_area '>
       <div className='header_top'>
-         <div className='container_'>
-         <div className='row'>
-         <div className="col-lg-6 header_top_column left_content">
-         <ul>
-<li>Email:<a href="mailto:support@posbytz.com">support@posbytz.com</a></li>
+         <div className='container-fluid'>
+         <div className='row p-2'>
+         <div className="col-lg-6  d-flex align-items-center header_top_column left_content">
+         <ul className='mb-0' >
+<li >Email:<a href="mailto:support@posbytz.com">support@posbytz.com</a></li>
 </ul>
      </div>
      <div className="col-lg-6 header_top_column right_content">
@@ -49,8 +64,8 @@ function NavBar() {
     <div className='header_bottom'>
         
 
-    <Navbar expand="lg" className="bg-white h-100 w-100 shadow-lg p-3 mb-3">
-      <Container>
+    <Navbar expand="lg" className="bg-white h-100 w-100 shadow-lg  mb-3">
+      <Container fluid="md sm">
         <Navbar.Brand href="#home" className='navbar_brand'>
         <div className='logo'>
         <img src="https://posbytz.com/wp-content/uploads/2021/09/logo_default_2x.svg " className='mw-100' alt='posBytz' />
@@ -59,29 +74,25 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto  ">
-            <Nav.Link href="#home"  
-          
-           onMouseEnter={handleMouseOver}
-           onMouseLeave={handleMouseOut}
-          
+            <Nav.Link href="#home"      
+           className='pt-0 pb-0'
            >
-              
-              <b style={{color:"#000000A6"}}
-            
-              className='no-bg '
-            > Explore </b>
-
-             <NavDropdown title="" id="nav-dropdown "
-        
-             className='first_drop  '        
-             show={showDropdown}                     
-             >
              
+
+             <NavDropdown title={ <b style={{color:"#000000A6"}}
+              className='no-bg  nav_responsive '
+              onMouseEnter={handleMouseOver}
+              onMouseLeave={handleMouseOut}
+              onClick={handleDropdownClick}
+            > Explore </b>} id="nav-dropdown "
         
+            //  className='first_drop  nav_child'        
+            show={isMobile ? showDropdown : undefined}                  
+             >
         <NavDropdown.Item eventKey='1.1' className='nav_dropdown_item no-bg  second_dropdown'>Restaurant <RiArrowRightSLine />
       
         <div className='second_dropdown_content'>
-             <ul>
+             <ul >
               <li>
               Restaurant POS Software
               </li>
@@ -92,8 +103,6 @@ function NavBar() {
              </ul>
 
         </div>
-         
-
         
         
         </NavDropdown.Item>
@@ -151,23 +160,11 @@ Fish store software
               <li>POS System for Small Business   </li>
               <li>vegetable shop billing software</li>
               <li> 
-              Best Pos Software 
-</li>
-
-
+              Best Pos Software </li>
              </ul>
 
         </div>
-        
-       
-
-
-
-
-
-        
-        
-        
+              
         <RiArrowRightSLine /></NavDropdown.Item>
         <NavDropdown.Item eventKey="1.4" className='nav_dropdown_item no-bg second_dropdown'>Online
          Ordering <RiArrowRightSLine />

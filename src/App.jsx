@@ -11,6 +11,8 @@ import FaqPage from './components/FaqPage';
 import BusinessPage from './components/BusinessPage';
 import Adversitement from './components/Adversitement';
 import Footer from './components/Footer';
+import Navigation from './components/Navigation';
+import CustomNav from './components/CustomNav';
 
 function App() {
  
@@ -19,7 +21,9 @@ function App() {
     <>
       
       <div className='page_layout'>
+      
        <NavBar/>
+          
        <HeroSection/>
        <Features/>
        <DemoPage/>
