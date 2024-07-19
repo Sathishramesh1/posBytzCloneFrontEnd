@@ -23,7 +23,6 @@ function App() {
       <div className='page_layout'>
       
        <NavBar/>
-          
        <HeroSection/>
        <Features/>
        <DemoPage/>

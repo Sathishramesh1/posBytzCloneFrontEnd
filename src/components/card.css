@@ -1,11 +1,5 @@
 
 
-/* .card_container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-} */
 .card{
     
     padding-top: 2rem;
@@ -25,16 +19,20 @@
 
     .erp_container{
         display: flex;
-        
+        flex-direction: column;
         padding-bottom: 2rem;
-
+  width: 90%;
+  
     
     }
 
     .erp_page{
         margin-top:5rem;
+        display: flex;
+        flex-direction: column;
     }
 
+   
     
  
    }
@@ -69,7 +67,7 @@
 .erp_page{
     background-color: #f0f0f2;
     width: 100%;
-    height: 90dvh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -81,7 +79,7 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
 
@@ -112,6 +110,7 @@
 .erp_right{
     
     flex: 0.4;
+    display: flex;
     
     img{
         max-width: 100%;
@@ -123,8 +122,9 @@
 
 
     .erp_container{
+        
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
@@ -140,4 +140,16 @@
             text-align: center;
         }
     }
+
+    .erp_right{
+         width: 250px!important;
+        
+        
+        
+        img{
+            max-width: 100%;
+        }
+    }
+
+    
 }

@@ -37,7 +37,7 @@
 
 .cards_container{
     
-    flex: 1;  
+    /* flex: 1;   */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,8 +53,21 @@
     }
 
     .testimonial_page{
-        margin-top: 10rem;
-        margin-bottom: 30rem;
+        height: auto;
+        margin-top: 2rem;
+         /* margin-top: 10rem;
+        margin-bottom: 30rem;  */
+    }
+
+
+    .testimonial_heading{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+    
     }
    
  
@@ -72,3 +85,14 @@
 }
 
 
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .testimonial_page{
+        height: auto;
+        margin-top: 2rem;
+         /* margin-top: 10rem; */
+        margin-bottom: 10rem; 
+    }
+
+
+}

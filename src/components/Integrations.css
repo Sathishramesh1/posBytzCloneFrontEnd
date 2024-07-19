@@ -14,17 +14,21 @@
     margin-top: 2rem;
     display: flex;
     width: 95%;
-    gap: 4rem;
+    gap: 5rem;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     
     margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 
     div{
-        transform: skewY(25deg);
-        transform: scaleZ(-10deg);
+        /* transform: skewY(25deg);
+        transform: scaleZ(-10deg); */
+        -webkit-transform: matrix(0.97029, 0.34192, -0.84486, 0.9425, 0, 0);
+  transform: matrix(0.97029, 0.34192, -0.84486, 0.9425, 0, 0);
        
         img{
             border-radius: 10px;
@@ -81,6 +85,8 @@
     background-color: coral;
     padding: 10px 20px 10px 20px;
     border-radius: 2rem;
+    outline: none;
+    border: none;
 }
 
 .carousel_slider{
@@ -107,10 +113,10 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     .carousel {
       flex-direction: column;
-      margin-bottom: 40rem;
+      margin-bottom: 10rem;
     }
   
     .carousel_slider {
@@ -122,6 +128,8 @@
     .animation_container{
 
     margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
  
@@ -129,5 +137,9 @@
 
 @media (max-width: 375px){
 
+  .carousel {
+    flex-direction: column;
+    /* margin-bottom: 46rem; */
+  }
  
 } 

@@ -61,7 +61,7 @@ span{
 @media (width <= 768px){
 
     .demo_video{
-       max-width: 100%;
+       max-width: 100dvw;
        object-fit: contain;
     
         
